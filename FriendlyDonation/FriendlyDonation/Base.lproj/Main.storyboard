@@ -12,7 +12,7 @@
         <!--LOGIN-->
         <scene sceneID="zAQ-Mk-40y">
             <objects>
-                <tableViewController id="hhQ-zS-Lno" sceneMemberID="viewController">
+                <tableViewController id="hhQ-zS-Lno" customClass="LoginTableViewController" customModule="FriendlyDonation" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="yIt-BT-vA4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -195,6 +195,13 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="LOGIN" id="Hoe-TH-obo"/>
+                    <connections>
+                        <outlet property="aboutButton" destination="f8c-SA-pHu" id="r7I-fE-FTF"/>
+                        <outlet property="facebookButton" destination="JGk-cS-fxe" id="cZS-if-adI"/>
+                        <outlet property="googlePlusButton" destination="YQE-8F-CsP" id="r6w-2X-0qA"/>
+                        <outlet property="loginButton" destination="HfL-UB-qDf" id="7Zy-xo-Xc2"/>
+                        <outlet property="registerButton" destination="68B-IB-R2j" id="M8U-ir-Uir"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tlM-Zh-nir" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

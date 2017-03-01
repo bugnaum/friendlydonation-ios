@@ -10,6 +10,12 @@ import UIKit
 
 class LoginTableViewController: UITableViewController {
 
+    @IBOutlet weak var facebookButton: UIButton!
+    @IBOutlet weak var googlePlusButton: UIButton!
+    @IBOutlet weak var loginButton: UIButton!
+    @IBOutlet weak var registerButton: UIButton!
+    @IBOutlet weak var aboutButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
