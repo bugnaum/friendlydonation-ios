@@ -18,6 +18,7 @@ class LoginTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        let loginBG: LoginBG = UIView.fromNib()
+        tableView.backgroundView = loginBG
     }
 }
