@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C376C1E91E665A2B002D4880 /* LoginBG.xib in Resources */ = {isa = PBXBuildFile; fileRef = C376C1E81E665A2B002D4880 /* LoginBG.xib */; };
+		C376C1EC1E665B1B002D4880 /* UIView+XIB.swift in Sources */ = {isa = PBXBuildFile; fileRef = C376C1EB1E665B1B002D4880 /* UIView+XIB.swift */; };
+		C376C1EF1E665BA8002D4880 /* LoginBG.swift in Sources */ = {isa = PBXBuildFile; fileRef = C376C1EE1E665BA8002D4880 /* LoginBG.swift */; };
 		C37C9FF81E6631190061FA02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C37C9FF71E6631190061FA02 /* AppDelegate.swift */; };
 		C37C9FFD1E6631190061FA02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C37C9FFB1E6631190061FA02 /* Main.storyboard */; };
 		C37C9FFF1E6631190061FA02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C37C9FFE1E6631190061FA02 /* Assets.xcassets */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C376C1E81E665A2B002D4880 /* LoginBG.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginBG.xib; path = ../LoginBG.xib; sourceTree = "<group>"; };
+		C376C1EB1E665B1B002D4880 /* UIView+XIB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+XIB.swift"; sourceTree = "<group>"; };
+		C376C1EE1E665BA8002D4880 /* LoginBG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginBG.swift; sourceTree = "<group>"; };
 		C37C9FF41E6631190061FA02 /* FriendlyDonation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendlyDonation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C37C9FF71E6631190061FA02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C37C9FFC1E6631190061FA02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,6 +62,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C376C1EA1E665B05002D4880 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C376C1EB1E665B1B002D4880 /* UIView+XIB.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		C376C1ED1E665B92002D4880 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C376C1E81E665A2B002D4880 /* LoginBG.xib */,
+				C376C1EE1E665BA8002D4880 /* LoginBG.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
 		C37C9FEB1E6631190061FA02 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +102,7 @@
 			children = (
 				C37CA01B1E6635B00061FA02 /* AppDelegate */,
 				C37CA01A1E6635AB0061FA02 /* Controllers */,
+				C376C1EA1E665B05002D4880 /* Extensions */,
 				C37CA01C1E6635BB0061FA02 /* Storyboards */,
 				C37C9FFE1E6631190061FA02 /* Assets.xcassets */,
 				C37CA0031E6631190061FA02 /* Info.plist */,
@@ -98,6 +122,7 @@
 		C37CA01A1E6635AB0061FA02 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				C376C1ED1E665B92002D4880 /* Components */,
 				C37CA01D1E6636110061FA02 /* LoginTableViewController.swift */,
 			);
 			path = Controllers;
@@ -207,6 +232,7 @@
 			files = (
 				C37CA0021E6631190061FA02 /* LaunchScreen.storyboard in Resources */,
 				C37C9FFF1E6631190061FA02 /* Assets.xcassets in Resources */,
+				C376C1E91E665A2B002D4880 /* LoginBG.xib in Resources */,
 				C37C9FFD1E6631190061FA02 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,6 +252,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C37C9FF81E6631190061FA02 /* AppDelegate.swift in Sources */,
+				C376C1EC1E665B1B002D4880 /* UIView+XIB.swift in Sources */,
+				C376C1EF1E665BA8002D4880 /* LoginBG.swift in Sources */,
 				C37CA01E1E6636110061FA02 /* LoginTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +464,7 @@
 				C37CA0131E6631190061FA02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C37CA0141E6631190061FA02 /* Build configuration list for PBXNativeTarget "FriendlyDonationTests" */ = {
 			isa = XCConfigurationList;
@@ -444,6 +473,7 @@
 				C37CA0161E6631190061FA02 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

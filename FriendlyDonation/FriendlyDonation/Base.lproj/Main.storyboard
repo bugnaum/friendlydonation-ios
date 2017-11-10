@@ -12,12 +12,11 @@
         <!--LOGIN-->
         <scene sceneID="zAQ-Mk-40y">
             <objects>
-                <tableViewController id="hhQ-zS-Lno" sceneMemberID="viewController">
+                <tableViewController id="hhQ-zS-Lno" customClass="LoginTableViewController" customModule="FriendlyDonation" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="yIt-BT-vA4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.42745098040000001" green="0.39607843139999999" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
-                        <color key="sectionIndexBackgroundColor" red="0.42745098039215684" green="0.396078431372549" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
                             <tableViewSection id="a0I-9q-qXr">
                                 <cells>
@@ -56,7 +55,6 @@
                                                 <constraint firstItem="bkh-Jq-qeu" firstAttribute="centerX" secondItem="YIK-zo-0PJ" secondAttribute="centerX" constant="1.5" id="r6d-dD-owc"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.42745098040000001" green="0.39607843139999999" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="60" id="ABV-u2-Y1w">
                                         <rect key="frame" x="0.0" y="223" width="375" height="60"/>
@@ -76,13 +74,14 @@
                                                     </state>
                                                 </button>
                                             </subviews>
-                                            <color key="backgroundColor" red="0.42745098040000001" green="0.39607843139999999" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             <constraints>
                                                 <constraint firstItem="JGk-cS-fxe" firstAttribute="leading" secondItem="Hgi-Xm-Mla" secondAttribute="leadingMargin" constant="39" id="4VD-UO-plI"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="JGk-cS-fxe" secondAttribute="trailing" constant="40" id="D1m-26-dEv"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="JGk-cS-fxe" secondAttribute="bottom" constant="-8" id="zUQ-g0-Jjf"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="66" id="e9k-Te-gjA">
                                         <rect key="frame" x="0.0" y="283" width="375" height="66"/>
@@ -115,7 +114,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="YQE-8F-CsP" secondAttribute="trailing" constant="48" id="oE9-do-TIx"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.42745098040000001" green="0.39607843139999999" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="66" id="vAe-jk-UJF">
                                         <rect key="frame" x="0.0" y="349" width="375" height="66"/>
@@ -137,7 +136,7 @@
                                                 <constraint firstItem="HfL-UB-qDf" firstAttribute="leading" secondItem="vk6-Uf-roQ" secondAttribute="leadingMargin" constant="40" id="xYV-QO-OeV"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.42745098040000001" green="0.39607843139999999" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="97" id="W8I-D2-Pkf">
                                         <rect key="frame" x="0.0" y="415" width="375" height="97"/>
@@ -160,7 +159,7 @@
                                                 <constraint firstItem="68B-IB-R2j" firstAttribute="top" secondItem="Gf5-NJ-abI" secondAttribute="topMargin" constant="25" id="e95-sd-kUi"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.42745098040000001" green="0.39607843139999999" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="91" id="EO9-SD-EqU">
                                         <rect key="frame" x="0.0" y="512" width="375" height="91"/>
@@ -184,7 +183,7 @@
                                                 <constraint firstItem="f8c-SA-pHu" firstAttribute="top" secondItem="xVc-8R-ulE" secondAttribute="top" id="OS9-kT-El1"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.42745098040000001" green="0.39607843139999999" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -195,6 +194,13 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="LOGIN" id="Hoe-TH-obo"/>
+                    <connections>
+                        <outlet property="aboutButton" destination="f8c-SA-pHu" id="r7I-fE-FTF"/>
+                        <outlet property="facebookButton" destination="JGk-cS-fxe" id="cZS-if-adI"/>
+                        <outlet property="googlePlusButton" destination="YQE-8F-CsP" id="r6w-2X-0qA"/>
+                        <outlet property="loginButton" destination="HfL-UB-qDf" id="7Zy-xo-Xc2"/>
+                        <outlet property="registerButton" destination="68B-IB-R2j" id="M8U-ir-Uir"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tlM-Zh-nir" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
